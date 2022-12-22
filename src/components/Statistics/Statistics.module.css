@@ -1,0 +1,35 @@
+.statistics {
+  margin: 5px;
+  border: 1px #000 solid;
+  max-width: 300px;
+}
+
+.title {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.stat_list {
+  background-color: darkgray;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.item:nth-child(2n) {
+  background-color: #ddd;
+}
+.item:nth-child(2n-1) {
+  background-color: beige;
+}
+.label {
+}
+.percentage {
+}

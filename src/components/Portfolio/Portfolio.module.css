@@ -1,3 +1,49 @@
-.title{
-    background-color: #fff;
+.profile {
+  background-color: #eee;
+  max-width: 250px;
 }
+.description {
+  border: 1px #aaa solid;
+}
+.avatar {
+  background-color: aquamarine;
+  width: 240px;
+  border-radius: 50%;
+  margin: 0 5px 0 5px;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.tag {
+  display: flex;
+  justify-content: center;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+.stats {
+  padding: 0;
+  margin: 0;
+  background-color: aqua;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.iteam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+}
+.label {
+font-weight: 500;
+}
+.quantity {
+    color: red;
+}
+
