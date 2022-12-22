@@ -1,0 +1,39 @@
+.friend_list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin: 5px;
+
+  max-width: 150px;
+}
+.item {
+  display: flex;
+  border: 1px solid #000;
+}
+.isOnlane {
+    margin: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  display: flex;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+.status {
+    margin: 5px;
+  align-items: center;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+}
+.avatar {
+}
+.name {
+}
