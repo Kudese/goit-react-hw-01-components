@@ -2,8 +2,11 @@ import React from 'react';
 import Portfolio from './components/Portfolio/portfolio';
 import user from 'components/Portfolio/user';
 
-import Statistics from "./components/Statistics/Statistics";
-import data from './components/Statistics/data'
+import Statistics from './components/Statistics/Statistics';
+import data from './components/Statistics/data';
+
+import FriendList from 'components/FriendList/FriendList';
+import friends from './components/FriendList/friends';
 export const App = () => {
   return (
     <div>
@@ -16,7 +19,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
-      
+      <FriendList friends />
     </div>
   );
 };
