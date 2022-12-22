@@ -22,6 +22,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .item:nth-child(2n) {
   background-color: #ddd;
