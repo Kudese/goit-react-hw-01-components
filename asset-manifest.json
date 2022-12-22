@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Kudese/goit-react-hw-01-components.git/static/css/main.17c8ffb4.css",
-    "main.js": "/Kudese/goit-react-hw-01-components.git/static/js/main.3089849e.js",
+    "main.css": "/Kudese/goit-react-hw-01-components.git/static/css/main.1984d316.css",
+    "main.js": "/Kudese/goit-react-hw-01-components.git/static/js/main.da4581cb.js",
     "index.html": "/Kudese/goit-react-hw-01-components.git/index.html",
-    "main.17c8ffb4.css.map": "/Kudese/goit-react-hw-01-components.git/static/css/main.17c8ffb4.css.map",
-    "main.3089849e.js.map": "/Kudese/goit-react-hw-01-components.git/static/js/main.3089849e.js.map"
+    "main.1984d316.css.map": "/Kudese/goit-react-hw-01-components.git/static/css/main.1984d316.css.map",
+    "main.da4581cb.js.map": "/Kudese/goit-react-hw-01-components.git/static/js/main.da4581cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.17c8ffb4.css",
-    "static/js/main.3089849e.js"
+    "static/css/main.1984d316.css",
+    "static/js/main.da4581cb.js"
   ]
 }
