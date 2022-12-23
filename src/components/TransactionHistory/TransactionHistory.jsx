@@ -1,18 +1,35 @@
-export default function TransactionHistory(items) {
-  console.log(items.items);
+import s from '../TransactionHistory/TransactionHistory.module.css'
+import PropTypes from 'prop-types'
+export default function TransactionHistory({items}) {
+  console.log(items)
   return (
-    <table className="transaction-history">
-      <thead>
+    <table className={s.table}>
+      <thead className={s.thead}>
         <tr>
           <th>Type</th>
           <th>Amount</th>
           <th>Currency</th>
         </tr>
       </thead>
-      <tbody>
-      
+      <tbody className={s.tb}>
+      {items.map(({id, type, amount, currency})=>{
+      return(<tr  key={id}>
+      <td>{type[0].toUpperCase() + type.slice(1)}</td>
+      <td>{amount}</td>
+      <td>{currency}</td>
+    </tr>)})}
           
       </tbody>
     </table>
   );
+}
+
+TransactionHistory.propTypes = {
+    items: PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired
+    })
+  
 }
